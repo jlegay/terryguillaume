@@ -1,0 +1,16 @@
+.navlink {
+  color: rgb(80, 80, 80);
+}
+
+.navlink:hover {
+  color: black;
+  transition-duration: 0.7;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#main-title {
+  height: 30%;
+}
