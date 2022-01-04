@@ -1,8 +1,8 @@
-.navlink {
+.menu-link {
   color: rgb(80, 80, 80);
 }
 
-.navlink:hover {
+.menu-link:hover {
   color: black;
   transition-duration: 0.7;
 }
@@ -13,4 +13,10 @@ h1 {
 
 #main-title {
   height: 30%;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
