@@ -11,10 +11,6 @@ h1 {
   font-family: 'Cormorant Garamond', serif;
 }
 
-#main-title {
-  height: 30%;
-}
-
 .menu-list {
   list-style-type: none;
   display: flex;
@@ -157,28 +153,6 @@ h2 {
       width: 2px;
    }
 
-/*   .timeline-block {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-box;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -moz-box-pack: justify;
-      justify-content: space-between;
-      clear: both;
-   }*/
-
-/*   .timeline-block-right {
-      float: right;
-   }
-
-   .timeline-block-left {
-      float: left;
-      direction: rtl
-   }*/
-
-
    .timeline-content {
       width: 95%;
       padding: 0 15px;
@@ -251,13 +225,13 @@ h2 {
 
 }
 
-
-@media only screen and (min-width : 100px) and (max-width : 575px) {
-/* Styles */
-}
-
 @media only screen and (min-width : 768px) {
 /* Styles */
+
+#main-title {
+  height: 30%;
+}
+
 #full-menu {
   display: flex;
 }
