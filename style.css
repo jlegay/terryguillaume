@@ -20,3 +20,48 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
+
+#full-menu {
+  display: none;
+}
+
+#mobile-menu {
+  margin-bottom: 5%;
+}
+
+#mobile-list-menu {
+  display: none;
+  list-style-type: none;
+}
+
+#hamburger-icon a {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(80, 80, 80);
+  text-decoration : none;
+}
+
+@media only screen and (min-width : 100px) and (max-width : 575px) {
+/* Styles */
+}
+
+@media only screen and (min-width : 768px) {
+/* Styles */
+#full-menu {
+  display: flex;
+}
+
+#mobile-menu {
+  display: none;
+}
+}
+
+@media only screen and (min-width : 992px) {
+/* Styles */
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+/* Styles */
+}
