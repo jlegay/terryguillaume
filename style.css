@@ -6,6 +6,10 @@
   color: black;
   transition-duration: 0.7;
 }
+#hotels {
+  text-align: center;
+}
+
 
 h1 {
   font-family: 'Cormorant Garamond', serif;
