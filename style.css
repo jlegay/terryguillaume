@@ -11,10 +11,6 @@ h1 {
   font-family: 'Cormorant Garamond', serif;
 }
 
-#main-title {
-  height: 30%;
-}
-
 .menu-list {
   list-style-type: none;
   display: flex;
@@ -157,7 +153,7 @@ h2 {
 
 
 
-@media only screen and (min-width : 100px) and (max-width : 768px) {
+@media only screen and (min-width : 100px) {
   .container:before {
      left: 8px;
      width: 2px;
@@ -174,45 +170,86 @@ h2 {
      float: none;
      direction: ltr;
   }
+  /*style de la timeline */
+  .timeline-container:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 2.6%;
+     width: 2px;
+     height: 100%;
+     background: #CCD1D9;
+     z-index: 1
+  }
+  .marker {
+     width: 16px;
+     height: 16px;
+     border-radius: 50%;
+     border: 2px solid #F5F7FA;
+     background: #A4243B;
+     margin-top: 10px;
+     z-index: 9999
+  }
+  .timeline-container {
+     width: 80%;
+     padding: 50px 0;
+     margin: 50px auto;
+     position: relative;
+     overflow: hidden;
+  }
+}
+
+@media only screen and (min-width : 414px) {
 /* Styles */
+  .timeline-container:before {
+     left: 2%;
+  }
+
 }
 
 @media only screen and (min-width : 768px) {
 /* Styles */
-#full-menu {
-  display: flex;
-}
 
-#mobile-menu {
-  display: none;
-}
-.timeline-container:before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 50%;
-   margin-left: -1px;
-   width: 2px;
-   height: 100%;
-   background: #CCD1D9;
-   z-index: 1
-}
-.marker {
-   width: 16px;
-   height: 16px;
-   border-radius: 50%;
-   border: 2px solid #F5F7FA;
-   background: #A4243B;
-   margin-top: 10px;
-   z-index: 9999
-}
-.timeline-container {
-   width: 80%;
-   padding: 50px 0;
-   margin: 50px auto;
-   position: relative;
-   overflow: hidden;
-}
+  #full-menu {
+  display: flex;
+  }
+
+  #main-title {
+  height: 30%;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
+  /*style de la timeline */
+  .timeline-container:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 50%;
+     margin-left: -1px;
+     width: 2px;
+     height: 100%;
+     background: #CCD1D9;
+     z-index: 1
+  }
+  .marker {
+     width: 16px;
+     height: 16px;
+     border-radius: 50%;
+     border: 2px solid #F5F7FA;
+     background: #A4243B;
+     margin-top: 10px;
+     z-index: 9999
+  }
+  .timeline-container {
+     width: 80%;
+     padding: 50px 0;
+     margin: 50px auto;
+     position: relative;
+     overflow: hidden;
+  }
 }
 
 @media only screen and (min-width : 992px) {
