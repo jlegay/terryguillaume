@@ -16,8 +16,8 @@
 
 /* Hamburger */
 .hamburger1 {
-  height: 45px;
-  margin: 10px;
+  height: 40px;
+  margin: 5px;
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -29,11 +29,12 @@
   background-color: rgb(61, 61, 61);
   position: relative;
   width: 40px;
-  height: 5px;
+  height: 2px;
   margin-top: 7px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 
 #toggle1 {
   display: none;
@@ -48,7 +49,7 @@
 #toggle1:checked + .hamburger1 .meat {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  margin-top: -5px;
+  margin-top: -2px;
 }
 
 #toggle1:checked + .hamburger1 .bottom {
@@ -64,12 +65,11 @@
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: #02173F;
   margin: 0;
   display: -ms-grid;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
-  grid-row-gap: 25px;
+  grid-row-gap: 20px;
   padding: 0;
   list-style: none;
   clear: both;
@@ -81,6 +81,12 @@
   z-index: 120;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.menu1 a {
+  color: rgb(80, 80, 80);
+  text-decoration : none;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .menu1 a:first-child {
@@ -95,7 +101,7 @@
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  font: 700 20px 'Oswald', sans-serif;
+  font: 700 20px 'Cormorant Garamond', serif;
 }
 
 .link1:hover {
