@@ -174,15 +174,18 @@ body {
 
 h2 {
   text-align : center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   color: rgb(80,80,80);
 }
 
 
+<<<<<<< HEAD
 #rsvp {
   margin-bottom: 5%;
 }
 
+=======
+>>>>>>> 18121f6e2e2b2f6fd1cbe97674de0c0eafc478ff
 .timeline-block {
    display: flex;
    -webkit-box-pack: justify;
@@ -313,6 +316,10 @@ h2 {
       overflow: hidden;
    }
 
+   #photo-tg {
+    margin-bottom: 24px;
+   }
+
 }
 
 @media only screen and (min-width : 320px) {
@@ -320,6 +327,11 @@ h2 {
   h1 {
     font-size: 2.4rem;
     }
+
+  #photo-tg {
+    margin-bottom: 24px;
+  }
+
 }
 
 
@@ -338,6 +350,11 @@ h2 {
      z-index: 1
   }
 
+  #photo-tg {
+    margin-bottom: 24px;
+  }
+
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -354,6 +371,11 @@ h2 {
   #mobile-menu {
     display: none;
   }
+
+  #photo-tg {
+    margin-bottom: 12px;
+  }
+
 
   .timeline-block-right {
     float: right;
