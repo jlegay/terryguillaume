@@ -175,6 +175,7 @@ body {
 h2 {
   text-align : center;
   font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
   color: rgb(80,80,80);
 }
 
@@ -403,7 +404,7 @@ h2 {
      height: 16px;
      border-radius: 50%;
      border: 2px solid #F5F7FA;
-     background: #A4243B;
+     background: #1A420A;
      margin-top: 10px;
      z-index: 9999
   }
