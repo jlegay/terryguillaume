@@ -433,6 +433,10 @@ h2 {
   }
 }
 
+#ltr-element {
+  direction: ltr;
+}
+
 @media only screen and (min-width : 992px) {
 /* Styles */
 
