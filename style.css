@@ -180,13 +180,12 @@ h2 {
 }
 
 
-<<<<<<< HEAD
 #rsvp {
   margin-bottom: 5%;
 }
 
 =======
->>>>>>> 18121f6e2e2b2f6fd1cbe97674de0c0eafc478ff
+
 .timeline-block {
    display: flex;
    -webkit-box-pack: justify;
@@ -305,7 +304,7 @@ h2 {
       height: 16px;
       border-radius: 50%;
       border: 2px solid #F5F7FA;
-      background: #A4243B;
+      background: #1A420A;
       margin-top: 10px;
       z-index: 9999
    }
