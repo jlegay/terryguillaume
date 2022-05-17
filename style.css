@@ -12,7 +12,23 @@
   color: #fff;
 } */
 
+.banner {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 150px 0;
+}
 
+.banner img {
+  opacity: 0.5;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 32px;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+}
 
 /* Hamburger */
 .hamburger1 {
@@ -256,6 +272,10 @@ h2 {
     background-image: linear-gradient(90deg, rgb(80, 80, 80), transparent);
 }
 
+.timeline-container {
+  z-index: 1;
+}
+
 
 @media screen and (min-width: 100px) {
    .container:before {
@@ -297,7 +317,7 @@ h2 {
       width: 2px;
       height: 100%;
       background: #CCD1D9;
-      z-index: 1
+      z-index: 0;
    }
    .marker {
       width: 16px;
@@ -306,7 +326,7 @@ h2 {
       border: 2px solid #F5F7FA;
       background: #1A420A;
       margin-top: 10px;
-      z-index: 9999
+      z-index: 9999;
    }
    .timeline-container {
       width: 80%;
@@ -320,6 +340,10 @@ h2 {
     margin-bottom: 24px;
    }
 
+   .timeline-container {
+     z-index: 0;
+   }
+
 }
 
 @media only screen and (min-width : 320px) {
@@ -330,6 +354,14 @@ h2 {
 
   #photo-tg {
     margin-bottom: 24px;
+  }
+
+  marker {
+    z-index: 9999;
+  }
+
+  .timeline-container {
+    z-index: 0;
   }
 
 }
@@ -347,7 +379,7 @@ h2 {
      width: 2px;
      height: 100%;
      background: #CCD1D9;
-     z-index: 1
+     z-index: 0;
   }
 
   #photo-tg {
@@ -395,7 +427,7 @@ h2 {
      width: 2px;
      height: 100%;
      background: #CCD1D9;
-     z-index: 1
+     z-index: 0;
   }
 
   .marker {
@@ -405,7 +437,7 @@ h2 {
      border: 2px solid #F5F7FA;
      background: #1A420A;
      margin-top: 10px;
-     z-index: 9999
+     z-index: 9999;
   }
 
   .timeline-container {
@@ -414,6 +446,7 @@ h2 {
      margin: 50px auto;
      position: relative;
      overflow: hidden;
+     z-index: 0;
   }
 
   .timeline-block {
